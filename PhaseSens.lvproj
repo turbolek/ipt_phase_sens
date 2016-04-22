@@ -10,8 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CalculatePhaseSensitivity.vi" Type="VI" URL="../CalculatePhaseSensitivity.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MovingAverage.vi" Type="VI" URL="../MovingAverage.vi"/>
+		<Item Name="SpreadsheetToArrayAndWaveform.vi" Type="VI" URL="../SpreadsheetToArrayAndWaveform.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
